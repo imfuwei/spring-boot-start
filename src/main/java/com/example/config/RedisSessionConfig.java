@@ -15,7 +15,7 @@ public class RedisSessionConfig {
 	public LettuceConnectionFactory redisConnectionFactory() {
 		
 		RedisStandaloneConfiguration config = new RedisStandaloneConfiguration("localhost",6379);
-		config.setPassword(RedisPassword.of("zhang983521"));
+		config.setPassword(RedisPassword.of("123456"));
 		LettuceConnectionFactory lettuceConnectionFactory = new LettuceConnectionFactory(config);
 		return lettuceConnectionFactory;
 	}
